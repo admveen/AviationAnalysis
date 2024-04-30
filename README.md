@@ -13,7 +13,9 @@ We have also analyzed the dependence of injury rates and likelihood of airplane 
 
 The rate of serious/fatal injury was determined by computing the total number of fatally and seriously injured passengers and normmalizing by the total number of passengers. For each accident, this was calculated as follows:
 
-    $$ \frac{n_{fatal} + n_{serious} }{N_{passenger}} $$ where $N_passenger = n_{fatal} + n_{serious} + n_{uninjured} + n_{minor_injuries}$
+    [n_(fatal) + n(serious)]/ N(passenger) 
+    
+    where N_passenger = n_(fatal) + n(serious) + n(uninjured) + n(minor_injuries)
 
 The other metric we tracked was whether a given accident resulted in destruction of the airplane involved. This was then used to compute aggregate statistics like the rate of airplane destruction (as opposed to other outcomes like serious or minor damage) in the event of an accident for a given Make. 
 
