@@ -30,7 +30,15 @@ We can see familiar passenger jet makes such as De Havilland, Airbus, and Boeing
 
 For smaller makes: Waco, Helio, and Boeing have the lowest average rates of serious injuries or fatalities. It is interesting to note that the average rate of serious injury tends to be higher across smaller makes than larger makes. This is possibly due to the fact that a single serious injury on a smaller airplane presents a larger serious injury fraction rate. It could also be due to pilot related effects in smaller vs larger aircraft (amateur vs. professional pilots, etc.), personal safety measures inside aircrafts of the two classes, and the general robustness of smaller aircraft vs larger aircraft to complete destruction. Further analysis and data collection would be required to separate some of these effects.
 
+We also found the makes with the lowest rate of complete destruction for both smaller and larger aircraft sets.
 
+Small aircraft destruction rates:
+![image](images/destruction_make_smaller.png)
+
+Large aircraft destruction rates:
+![image](images/make_destruction_1.png)
+
+A quick perusal of the makes show that many of the makes that have lowest rates of airplane destruction are also those who have the lowest rate of serious injuries / fatalities. This is sensible and it would be interesting to delve deeper in the dependence of one metric on the other.
 
 ### Airplane Model Analysis
 
@@ -64,4 +72,14 @@ Together this is perhaps not surprising: conditions under which pilots cannot se
 
 #### Engine Type
 
-We can see that 
+Turbo Fan engines (typically correponding to modern large passenger jets) seem to have both the lowest rate of total destruction in an accident as well as the lowest fraction 
+of serious/fatally injured passengers. 
+
+
+![image](images/weathercond_damage.png) 
+
+![image](images/engine_type.png) 
+
+
+The other engine types all have similar rates of serious/fatally injuries although one can see that the reciprocating piston engine (the engine with the highest representation in the dataset and usually corresponding to smaller propeller aircraft) has a  fairly low rate of complete aircraft destruction in the event of an accident. 
+
