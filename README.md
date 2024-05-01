@@ -32,10 +32,12 @@ For smaller makes: Waco, Helio, and Boeing have the lowest average rates of seri
 
 We also found the makes with the lowest rate of complete destruction for both smaller and larger aircraft sets.
 
-Small aircraft destruction rates:
+Small aircraft makes with the lowest destruction rates:
+
 ![image](images/destruction_make_smaller.png)
 
-Large aircraft destruction rates:
+Large aircraft makes with the lowewst destruction rates:
+
 ![image](images/make_destruction_1.png)
 
 A quick perusal of the makes show that many of the makes that have lowest rates of airplane destruction are also those who have the lowest rate of serious injuries / fatalities. This is sensible and it would be interesting to delve deeper in the dependence of one metric on the other.
@@ -50,7 +52,7 @@ One immediate take away from look at the average rates is that there are many Ce
 For larger planes, many Boeing aircraft (in particular Boeing 737-200, 737-300, and Boeing 727-223) are amongst models exhibiting the lowest historical fraction of serious injuries / fatalities.
 ![image](images/large_plane_inj_frac.png) 
 
-Again we can see for the strip plots that most accident events in these models result in no serious injuries although there are some events where we see catastrophic (near unity) fatality rates. These high serious injury fraction events are *rare* in these safest models.
+Again we can see from the strip plots that most accident events in these models result in no serious injuries although there are some events where we see catastrophic (near unity) fatality rates. These high serious injury fraction events are *rare* in these safest models.
 
 ### Factors
 
@@ -72,14 +74,13 @@ Together this is perhaps not surprising: conditions under which pilots cannot se
 
 #### Engine Type
 
-Turbo Fan engines (typically correponding to modern large passenger jets) seem to have both the lowest rate of total destruction in an accident as well as the lowest fraction 
-of serious/fatally injured passengers. 
+Turbo Fan engines (typically correponding to modern large passenger jets) seem to have both the lowest rate of total destruction in an accident as well as the lowest fraction of serious/fatally injured passengers. 
 
 
-![image](images/weathercond_damage.png) 
+![image](images/eng_type_inj.png) 
 
 ![image](images/engine_type.png) 
 
 
-The other engine types all have similar rates of serious/fatally injuries although one can see that the reciprocating piston engine (the engine with the highest representation in the dataset and usually corresponding to smaller propeller aircraft) has a  fairly low rate of complete aircraft destruction in the event of an accident. 
+The other engine types all have similar rates of serious/fatally injuries although one can see that the reciprocating piston engine (the engine with the highest representation in the dataset and usually corresponding to smaller propeller aircraft) has a fairly low rate of complete aircraft destruction in the event of an accident. 
 
