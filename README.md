@@ -11,7 +11,7 @@ We have also analyzed the dependence of injury rates and likelihood of airplane 
 
 ### Constructed Metrics
 
-The rate of serious/fatal injury was determined by computing the total number of fatally and seriously injured passengers and normmalizing by the total number of passengers. For each accident, this was calculated as follows:
+The rate of serious/fatal injury was determined by computing the total number of fatally and seriously injured passengers and normalizing by the total number of passengers. For each accident, this was calculated as follows:
 
     [n_(fatal) + n(serious)]/ N(passenger) 
     
@@ -36,7 +36,7 @@ Small aircraft makes with the lowest destruction rates:
 
 ![image](images/destruction_make_smaller.png)
 
-Large aircraft makes with the lowewst destruction rates:
+Large aircraft makes with the lowest destruction rates:
 
 ![image](images/make_destruction_1.png)
 
